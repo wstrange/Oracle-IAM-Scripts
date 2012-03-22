@@ -1,0 +1,26 @@
+Starting the services:
+
+All Start and Stop scripts are in "/home/oracle/scripts". Start the services in the following order:
+
+NOTE: IF the database autostarts ignore the DB start scripts
+
+    * Database 	- ./startDB.sh
+    * OPMN 	- ./startOPMN.sh
+    * Weblogic Server - ./startWLS.sh
+    * Weblogic Server - ./startWLS2.sh
+    * OAM 	- ./startOAM.sh
+    * OHS 	- ./startOHS.sh
+    * ODSM Console - ./startODSM.sh
+    * OIF - ./startOIF.sh
+
+To stop the services:
+./stopOIF.sh
+./stopODSM.sh
+./stopOHS.sh
+./stopOAM.sh
+./stopWLS.sh
+./stopWLS2.sh
+./stopOPMN.sh
+./stopDB.sh
+
+

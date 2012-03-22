@@ -1,0 +1,14 @@
+A collection of shell scripts used to prepare a Redhat or Oracle Linux image to host Oracle Identity Management software. 
+
+
+
+Contents:
+installscripts/   scripts to prepare Oracle Linux for the database and Weblogic middleware 
+oifoam/   - scripts to start/stop various components (OIF, OAM, OHS, OPMN, etc..)
+misc/webgate - webgate install script
+
+
+Contributors:
+Chris Johnson
+Art Mattsun 
+Warren Strange

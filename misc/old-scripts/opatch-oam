@@ -1,0 +1,10 @@
+#!/bin/sh 
+# run opatch for IDM 
+
+# For  OAM
+export ORACLE_HOME=/oracle/Middleware/Oracle_IDM2
+
+
+export PATH=$ORACLE_HOME/OPatch:$PATH
+
+opatch $* 

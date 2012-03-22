@@ -1,0 +1,10 @@
+# Command lines for starting up the services. 
+# use this if you want to interactively start weblogic to watch the output
+# source env.sh 
+
+$IDM_DOMAIN/startWebLogic.sh
+$OAM_DOMAIN/startWebLogic.sh
+$OAM_DOMAIN/bin/startManagedWebLogic.sh oam_server1
+$IDM_DOMAIN/bin/startManagedWebLogic.sh wls_ods1
+$IDM_DOMAIN/bin/startManagedWebLogic.sh wls_oif1
+

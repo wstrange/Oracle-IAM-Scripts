@@ -1,0 +1,31 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+#JAVA_HOME=/usr/java/jdk1.6.0_31
+JAVA_HOME=/usr/java/latest
+export JAVA_HOME
+
+ORACLE_OWNER=oracle
+export ORACLE_OWNER
+
+ORACLE_HOME=/app/Oracle/product/11.2.0/dbhome_1
+export ORACLE_HOME
+
+ORACLE_SID=orcl
+export ORACLE_SID
+
+PATH=$JAVA_HOME/bin:$PATH:$HOME/bin:$ORACLE_HOME/bin:/home/oracle/scripts:/app/Oracle/Middleware/asinst_1/bin
+export PATH
+
+MW_HOME=/app/Oracle/Middleware
+export MW_HOME
+
+WL_HOME=$MW_HOME/wlserver_10.3
+export WL_HOME
+
