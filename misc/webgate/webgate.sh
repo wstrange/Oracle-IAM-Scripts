@@ -13,9 +13,9 @@ cd $WG/webgate/ohs/tools/deployWebGate
 
 ./deployWebGateInstance.sh  -oh $WG -w $INSTANCE
 
-cd $MW_HOME/webgate/ohs/tools/setup/InstallTools
+cd $WG/webgate/ohs/tools/setup/InstallTools
 
 ./EditHttpConf -oh $WG -w $INSTANCE
 
-echo "Copy your OAM config files ... example:"
+echo "Copy your OAM config files to webgate config instance dir  ... for example:"
 echo  cp $MW_HOME/user_projects/domains/OAM/output/test.oracleads.com/*  $INSTANCE/webgate/config
